@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maple Grove Realty — Lead CRM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="brand">Maple Grove Realty</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button type="button" class="nav-btn active" data-view="form" id="nav-form">Lead Form</button>
+        <button type="button" class="nav-btn" data-view="crm" id="nav-crm">CRM Dashboard</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section id="view-form" class="view view-active" aria-label="Lead form"></section>
+    <section id="view-crm" class="view" aria-label="CRM dashboard" hidden></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Prototype by BRUKD Consultancy. Demonstration only with sample data.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/scoring.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
