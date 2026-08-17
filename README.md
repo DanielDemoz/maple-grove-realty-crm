@@ -33,3 +33,12 @@ No install, build step, or server required.
 Open `index.html` locally. GitHub Pages URL available once deployed.
 
 **Disclaimer:** De-identified demonstration artifact by Daniel S. Demoz—not connected to any live CRM or brokerage system.
+
+## Contact
+
+Daniel S. Demoz  
+📧 Email: asbdansi9@gmail.com  
+📱 Phone: (437) 249-3308  
+🔗 LinkedIn: linkedin.com/in/daniel-s-demoz  
+💼 GitHub: github.com/DanielDemoz  
+🌐 Website: brukdconsultancy.com
