@@ -30,7 +30,7 @@ No install, build step, or server required.
 
 ## Screenshot / demo
 
-Open `index.html` locally. GitHub Pages URL available once deployed.
+Open `index.html` locally. The CRM runs fully in the browser.
 
 **Disclaimer:** De-identified demonstration artifact by Daniel S. Demoz—not connected to any live CRM or brokerage system.
 
@@ -38,7 +38,6 @@ Open `index.html` locally. GitHub Pages URL available once deployed.
 
 Daniel S. Demoz  
 📧 Email: asbdansi9@gmail.com  
-📱 Phone: (437) 249-3308  
 🔗 LinkedIn: linkedin.com/in/daniel-s-demoz  
 💼 GitHub: github.com/DanielDemoz  
 🌐 Website: brukdconsultancy.com
