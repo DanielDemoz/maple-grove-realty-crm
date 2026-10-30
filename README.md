@@ -4,7 +4,7 @@ Front-end prototype of a residential real estate lead capture form and Kanban-st
 
 ## Problem
 
-Brokerages need a lightweight way to intake leads, score them, and track progression from first contact through closing—without standing up a full backend for early demos.
+Brokerages need a lightweight way to intake leads, score them, and track progression from first contact through closing, without standing up a full backend for early demos.
 
 ## Approach
 
@@ -15,7 +15,7 @@ Built a zero-build vanilla JS app with a validated lead form (auto-scoring), CRM
 - End-to-end lead-to-pipeline workflow in a single static site
 - Automatic lead scoring on intake
 - Kanban pipeline with stage management and notes
-- Fully fictional, de-identified sample data—no real contacts or brokerages
+- Fully fictional, de-identified sample data, no real contacts or brokerages
 
 ## Tech stack
 
@@ -32,7 +32,7 @@ No install, build step, or server required.
 
 Open `index.html` locally. The CRM runs fully in the browser.
 
-**Disclaimer:** De-identified demonstration artifact by Daniel S. Demoz—not connected to any live CRM or brokerage system.
+**Disclaimer:** De-identified demonstration artifact by Daniel S. Demoz, not connected to any live CRM or brokerage system.
 
 ## Contact
 

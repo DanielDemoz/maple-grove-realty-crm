@@ -1,5 +1,5 @@
 /**
- * data.js — Seed lead data and localStorage persistence helpers.
+ * data.js, Seed lead data and localStorage persistence helpers.
  * All names, contact details, and addresses are entirely fictional.
  */
 
@@ -20,7 +20,7 @@ const INTENTS = ['Buying', 'Selling', 'Investing'];
 const STAGES = ['New', 'Contacted', 'Showing', 'Offer', 'Closed'];
 
 /**
- * Original demo dataset — 10 fictional leads spread across all five pipeline stages.
+ * Original demo dataset, 10 fictional leads spread across all five pipeline stages.
  * createdAt values fall within the last three weeks relative to demo build date.
  */
 const SEED_LEADS = [
@@ -117,7 +117,7 @@ const SEED_LEADS = [
     budget: '$1.5M+',
     area: 'Toronto',
     timeline: 'ASAP',
-    message: 'Portfolio expansion — looking at mixed-use commercial-residential.',
+    message: 'Portfolio expansion, looking at mixed-use commercial-residential.',
     stage: 'Offer',
     notes: 'Offer submitted on Bayview property. Awaiting counter.',
     createdAt: '2026-05-28T15:40:00.000Z'
@@ -145,7 +145,7 @@ const SEED_LEADS = [
     budget: '$750K – $1M',
     area: 'Brampton',
     timeline: '3-6 months',
-    message: 'Listing our bungalow — flexible on closing date.',
+    message: 'Listing our bungalow, flexible on closing date.',
     stage: 'Closed',
     notes: 'Closed June 1. Client very satisfied.',
     createdAt: '2026-05-20T12:00:00.000Z'
@@ -159,7 +159,7 @@ const SEED_LEADS = [
     budget: 'Under $500K',
     area: 'Vaughan',
     timeline: 'Just browsing',
-    message: 'Early research phase — not ready to commit yet.',
+    message: 'Early research phase, not ready to commit yet.',
     stage: 'Closed',
     notes: 'Added to nurture email list.',
     createdAt: '2026-05-18T17:25:00.000Z'

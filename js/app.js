@@ -1,5 +1,5 @@
 /**
- * app.js — Application state, rendering, and event handling.
+ * app.js, Application state, rendering, and event handling.
  *
  * State flow:
  *   1. loadLeads() on init → populate `leads` array

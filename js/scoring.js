@@ -1,5 +1,5 @@
 /**
- * scoring.js — Pure lead-scoring logic (no dependencies).
+ * scoring.js, Pure lead-scoring logic (no dependencies).
  *
  * Scoring model (max 100):
  *   Timeline:  ASAP +40 | 1-3 months +25 | 3-6 months +10 | Just browsing +0
@@ -27,7 +27,7 @@ const INTENT_POINTS = {
 
 /**
  * Calculate a numeric score (0–100) for a lead object.
- * @param {object} lead — must include timeline, intent, and budget fields
+ * @param {object} lead, must include timeline, intent, and budget fields
  * @returns {number}
  */
 function scoreLead(lead) {
@@ -39,7 +39,7 @@ function scoreLead(lead) {
   // Intent type
   total += INTENT_POINTS[lead.intent] ?? 0;
 
-  // Budget tier — map label to index in BUDGET_TIERS (defined in data.js)
+  // Budget tier, map label to index in BUDGET_TIERS (defined in data.js)
   const tierIndex = typeof BUDGET_TIERS !== 'undefined'
     ? BUDGET_TIERS.indexOf(lead.budget)
     : -1;
